@@ -8,6 +8,7 @@ import { color } from '@chakra-ui/react';
 
 import morningAFF from './audio/MoningAFF.mp3'
 import dailyGratitute from './audio/dailyGratitute.mp3'
+import hkk from './audio/hkk.mp3'
 // Sample Data (categories with audio tracks inside them)
 const audioCategories = {
   binauralBeats: [
@@ -90,8 +91,8 @@ const audioCategories = {
   AFFIRMATIONS: [
     {
       title: "Radhe Radhe Govinda",
-      description: "Relax with soft and soothing piano music.",
-      src: dailyGratitute,
+      description: "Radhe Govinda.",
+      src: hkk,
       backgroundImage: hk, // Background image for Calm Piano
     },
     {
