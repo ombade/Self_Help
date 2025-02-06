@@ -1,0 +1,45 @@
+{
+    "binauralBeats": [
+      {
+        "title": "Study Beats",
+        "description": "Focus better with binaural beats designed for studying.",
+        "src": "./audio/study.mp3",
+        "backgroundImage": "./images/study-bg.jpg"
+      },
+      {
+        "title": "Meditation Beats",
+        "description": "Relax with binaural beats for deep meditation.",
+        "src": "./audio/meditation.mp3",
+        "backgroundImage": "./images/meditation-bg.jpg"
+      }
+    ],
+    "asmr": [
+      {
+        "title": "Rain Sounds",
+        "description": "Soothing rain sounds for relaxation.",
+        "src": "./audio/rain.mp3",
+        "backgroundImage": "./images/rain-bg.jpg"
+      },
+      {
+        "title": "Ocean Waves",
+        "description": "Gentle waves for peaceful sleep.",
+        "src": "./audio/ocean.mp3",
+        "backgroundImage": "./images/ocean-bg.jpg"
+      }
+    ],
+    "calmMusic": [
+      {
+        "title": "Calm Piano",
+        "description": "Relax with soft and soothing piano music.",
+        "src": "./audio/piano.mp3",
+        "backgroundImage": "./images/piano-bg.jpg"
+      },
+      {
+        "title": "Forest Ambience",
+        "description": "Calming forest sounds with birds and wind.",
+        "src": "./audio/forest.mp3",
+        "backgroundImage": "./images/forest-bg.jpg"
+      }
+    ]
+  }
+  
