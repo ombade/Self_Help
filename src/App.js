@@ -10,6 +10,10 @@ import Home from './Pages/Home';
 import Skills from './Pages/Skiils';
 import Projects from './Pages/feat';
 import Footer from './Pages/footer';
+import GuidedMeditation from './Pages/GuidedMeditation';
+import SpeedDrills from './Pages/SpeedDrills';
+import HomePage from './Pages/homepage';
+import Box from './Pages/box';
 import { AuthProvider } from './Pages/AuthContext'; 
 function App() {
   return (
@@ -18,11 +22,14 @@ function App() {
         <div className="App"> 
           <Navbar />
           <Home />
-          <Projects />
+          <HomePage />
+         <GuidedMeditation />
           <Contact />
           <About />
+          <Box />
+          <SpeedDrills />
           
-          <Footer />
+           {/* <Footer /> */}
         </div>
       </Router>
     </AuthProvider>

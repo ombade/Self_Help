@@ -6,6 +6,8 @@ import hk from './imgs/hk.jpg';
 import smMor from './imgs/smMor.jpg'
 import { color } from '@chakra-ui/react';
 
+import morningAFF from './audio/MoningAFF.mp3'
+import dailyGratitute from './audio/dailyGratitute.mp3'
 // Sample Data (categories with audio tracks inside them)
 const audioCategories = {
   binauralBeats: [
@@ -85,17 +87,23 @@ const audioCategories = {
       backgroundImage: "./images/ocean-bg.jpg", // Background image for Ocean Waves
     },
   ],
-  calmMusic: [
+  AFFIRMATIONS: [
     {
       title: "Radhe Radhe Govinda",
       description: "Relax with soft and soothing piano music.",
-      src: "./audio/piano.mp3",
+      src: dailyGratitute,
       backgroundImage: hk, // Background image for Calm Piano
     },
     {
-      title: "Forest Ambience",
-      description: "Calming forest sounds with birds and wind.",
-      src: "./audio/forest.mp3",
+      title: " Gratitude Affirmations",
+      description: "By Sandeep Maheshwari",
+      src: dailyGratitute,
+      backgroundImage: smMor, // Background image for Calm Piano
+    },
+    {
+      title: " DAILY MORNING AFFIRMATIONS",
+      description: "By Sandeep Maheshwari",
+      src: morningAFF,
       backgroundImage: smMor, // Background image for Forest Ambience
     },
   ],

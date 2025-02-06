@@ -1,0 +1,153 @@
+.speed-drills-container {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .instructions {
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-bottom: 2rem;
+  }
+  
+  .paragraph {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  
+  .timer {
+    font-size: 2rem;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .start-button, .reset-button, .next-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .start-button {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .reset-button {
+    background: #e53e3e;
+    color: white;
+  }
+  
+  .next-button {
+    background: #2196F3;
+    color: white;
+  }
+  
+  .round-info {
+    font-size: 1.2rem;
+    color: #2d3748;
+  }
+
+  .box-breathing-container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    color: white;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .box-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .phase-label {
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.5s ease;
+  }
+  
+  .timer {
+    margin-top: 10px;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .start-button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 1.2em;
+    background: linear-gradient(145deg, #00b4d8, #0077b6);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(0, 180, 216, 0.3);
+  }
+  
+  .start-button:hover {
+    background: linear-gradient(145deg, #0096c7, #023e8a);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 180, 216, 0.4);
+  }
+  
+  .start-button:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 15px rgba(0, 180, 216, 0.3);
+  }
+  
+  /* Add this to your index.html or use @import */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
